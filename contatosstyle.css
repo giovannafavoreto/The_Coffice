@@ -1,0 +1,184 @@
+* { margin: 0;
+    padding: 0;
+}
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  main,
+  menu,
+  nav,
+  section,
+  summary 
+  {
+  display: block;
+}
+
+:root {
+    --cor-primaria: #E6E6E6;
+    --cor-secundaria: #CCAB7E;
+    --cor-terciaria: #C08E69;
+    --cor-quartenaria: #532E1C;
+    --cor-fundo: white;
+}
+body {
+    background-color: var(--cor-fundo);
+
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  header nav {
+    align-items: flex-end;
+}
+/* Essa classe está chamando o menu e a logo por inteiro */
+.navbar {
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    width: 100%;
+    margin-top: 105px;
+   
+  }
+  /* Chamei a logo pelo id para poder separar do menu */
+  #logo {
+   padding-right:530px;
+   
+   
+  }
+ /* A partir daqui está sendo editado os itens do menu, como espaçamento por exemplo*/
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+  }
+  .navbar-menu li {
+    padding-left: 15px;
+    align-items: center;
+  }
+  .navbar-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    text-transform: inherit;
+  }
+  .navbar-menu li:hover{
+    background-color: var(--cor-secundaria);
+    
+    
+  }
+  .navbar-menu li a:hover{
+    color: black;
+  }
+  
+  section{
+    width: 70%;
+  }
+  .box{
+    padding-left: 430px;
+    padding-bottom: 50px;
+    
+  }
+
+  fieldset{
+    border: 1px solid var(--cor-quartenaria);
+    padding-bottom: 30px;
+    background-color: var(--cor-terciaria);
+  }
+  legend{
+    border: 1px solid var(--cor-quartenaria);
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor-quartenaria);
+    border-radius: 7px;
+    color: var(--cor-fundo);
+  }
+  .InputBox{
+    position: relative;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }
+  .InputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 1px;
+  }
+  .labelinput{
+    
+    top: 3px;
+    left: 3px;
+    color: white;
+    pointer-events: none;
+  }
+  #data_nascimento{
+    border: none;
+    padding: 8px;
+    border: 10px;
+    outline: none;
+    font-size: 15px;
+    color: white;
+  }
+  #submit{
+    background-color: var(--cor-quartenaria);
+    width: 90%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    color: white;
+  }
+  #mensagem{
+    margin-left: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+  }
+  #mensagem p{
+    padding-left: 50px;
+    font-size: 18px;
+    padding-top: 10px;
+    color: white;
+  }
+ 
+  footer{ 
+    background-color:var(--cor-secundaria);
+    height: 170px;
+   
+}
+.contato{
+    color: var(--cor-quartenaria);
+    padding-left: 100px;
+    padding-top: 0px;
+    padding-top: 30px;
+}
+.contato h2{
+    font-size: 20px;
+    
+}
+.contato h5{
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.contato a:link{
+    text-decoration:underline;
+}
+.contato a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
