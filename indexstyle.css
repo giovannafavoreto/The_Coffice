@@ -13,7 +13,7 @@
   section,
   summary 
   {
-  display: block;
+  display:block;
 }
 
 :root {
@@ -69,9 +69,8 @@ body {
     text-transform: inherit;
   }
   .navbar-menu li:hover{
-    background-color: var(--cor-secundaria);
-    
-    
+    text-decoration: underline;
+    text-decoration-color: orange;
   }
   .navbar-menu li a:hover{
     color: black;
@@ -107,8 +106,15 @@ body {
   padding-right: 60px;
  }
   
-  
-  footer{ background-color:var(--cor-secundaria);height: 1000px;}
   html{
     overflow-y: hidden;
   }
+
+  footer{  
+    background-color:var(--cor-secundaria);
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
