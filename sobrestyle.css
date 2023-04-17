@@ -76,8 +76,8 @@ body {
   
   }
   .navbar-menu li:hover{
-    background-color: var(--cor-secundaria);
-    
+    text-decoration: underline;
+    text-decoration-color: orange;
   }
   .navbar-menu li a:hover{
     color: black;
