@@ -49,7 +49,7 @@ body {
   }
   /* Chamei a logo pelo id para poder separar do menu */
   #logo {
-   padding-right:530px;
+   padding-right:1080px;
    
    
    
@@ -76,8 +76,8 @@ body {
   
   }
   .navbar-menu li:hover{
-    text-decoration: underline;
-    text-decoration-color: orange;
+    background-color: var(--cor-secundaria);
+    
   }
   .navbar-menu li a:hover{
     color: black;
@@ -87,9 +87,9 @@ body {
   }
   #tabs{
     margin-right: 0px;
-    width: 450px;
-    margin-left: 110px;
-    margin-top: 80px;
+    width: 650px;
+    margin-left: 210px;
+    margin-top: 210px;
     padding-top: 0px;
     padding-bottom: 110px;
     height: 40px;
@@ -98,15 +98,15 @@ body {
   #funcionários{
     padding-bottom: 0px;
     width: 40%;
-    padding-top: 10px;
+    padding-top: 120px;
     margin-left: 10px;
-    margin-right: 90px;
+    margin-right: 250px;
 
   }
   footer{  
     background-color:var(--cor-secundaria);
     width: 100%;
-    height: 80px;
+    height: 200px;
     position: absolute;
     bottom: 0;
     left: 0;
