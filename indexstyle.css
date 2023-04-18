@@ -69,7 +69,8 @@ body {
     text-transform: inherit;
   }
   .navbar-menu li:hover{
-    background-color: var(--cor-secundaria);
+     text-decoration:underline;
+    text-decoration-color: orange;
     
     
   }
