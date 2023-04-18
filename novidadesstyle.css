@@ -46,7 +46,7 @@ body {
   }
   /* Chamei a logo pelo id para poder separar do menu */
   #logo {
-   padding-right:530px;
+   padding-right:1080px;
    
    
   }
@@ -69,8 +69,9 @@ body {
     text-transform: inherit;
   }
   .navbar-menu li:hover{
-    text-decoration: underline;
-    text-decoration-color: orange;
+    background-color: var(--cor-secundaria);
+    
+    
   }
   .navbar-menu li a:hover{
     color: black;
@@ -82,15 +83,16 @@ body {
   
  #primeiro{
     padding-left: 110px;
-    padding-top: 30px;
-    padding-bottom: 58px;
+    padding-top: 100px;
+    padding-bottom: 100px;
  }
  #segundo{
+  padding-top: 100px;
  padding-left: 50px;
- padding-bottom: 56px;
+ padding-bottom: 100px;
  }
   
-  footer{ background-color:var(--cor-secundaria);height: 1000px;}
+  footer{ background-color:var(--cor-secundaria);height: 300px;}
   html{
     overflow-y: hidden;
   }
