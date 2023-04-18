@@ -46,7 +46,7 @@ body {
   }
   /* Chamei a logo pelo id para poder separar do menu */
   #logo {
-   padding-right:530px;
+   padding-right:1080px;
    
    
   }
@@ -69,19 +69,21 @@ body {
     text-transform: inherit;
   }
   .navbar-menu li:hover{
-    text-decoration: underline;
-    text-decoration-color: orange;
+    background-color: var(--cor-secundaria);
+    
+    
   }
   .navbar-menu li a:hover{
     color: black;
   }
   
   section{
-    width: 70%;
+    width: 65%;
   }
   .box{
-    padding-left: 430px;
-    padding-bottom: 50px;
+    padding-left: 700px;
+    padding-bottom: 90px;
+    padding-top: 30px;
     
   }
 
@@ -142,7 +144,7 @@ body {
     color: white;
   }
   #mensagem{
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 15px;
     border: none;
     border-radius: 10px;
@@ -156,7 +158,7 @@ body {
  
   footer{ 
     background-color:var(--cor-secundaria);
-    height: 170px;
+    height: 300px;
    
 }
 .contato{
@@ -180,4 +182,7 @@ body {
     color: black;
     text-decoration: underline;
     
+}
+html{
+  overflow-y: hidden;
 }
