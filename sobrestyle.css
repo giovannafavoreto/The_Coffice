@@ -25,7 +25,8 @@
 }
 
 body {
-    background-color: var(--cor-fundo);
+     text-decoration:underline;
+    text-decoration-color: orange;
 
   }
 
